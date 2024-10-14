@@ -23,8 +23,10 @@ variable "billing_id" {
 
 variable "folder_id" {
   type = string
+  default = ""
 }
 
 variable "org_id" {
   type = string
+  default = ""
 }
