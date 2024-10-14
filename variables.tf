@@ -1,6 +1,7 @@
 locals {
   project_id            = "foodlytics77"
   billing_id            = "017614-73326A-5D8202"
+  org_id                = "Self"
   region                = "asia-southeast1"
   zone                  = "asia-southeast1-a"
   airbyte_machine_type  = "e2-medium"
