@@ -7,4 +7,4 @@ billing_id = "017614-73326A-5D8202"
 # Leave this blank if you use a personal account
 #org_id     = ""
 # The project to create
-project_id = "foodlytics76"
+project_id = "foodlytics77"
