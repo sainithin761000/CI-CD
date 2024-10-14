@@ -44,7 +44,7 @@ jobs:
           terraform plan \
             -var "billing_id=${{ secrets.BILLING_ID }}" \
             -var "project_id=${{ secrets.PROJECT_ID }}" \
-            -var "org_id=''" \
+            -var "org_id='Self'" \
             -var "folder_id=''"
       
       # Step 7: Terraform Apply (apply changes to GCP infrastructure)
@@ -54,6 +54,6 @@ jobs:
           terraform apply \
             -var "billing_id=${{ secrets.BILLING_ID }}" \
             -var "project_id=${{ secrets.PROJECT_ID }}" \
-            -var "org_id=''" \
+            -var "org_id='Self'" \
             -var "folder_id=''" \
             -auto-approve
