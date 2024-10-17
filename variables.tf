@@ -1,5 +1,5 @@
 locals {
-  project_id            = "foodlytics71"
+  project_id            = "foodlytics72"
   billing_id            = "017614-73326A-5D8202"
   #org_id                = "Self"
   region                = "asia-southeast1"
